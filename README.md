@@ -1,2 +1,2 @@
 # Portfolio-Website
-Written in HTMX
+Written in SVELTE
