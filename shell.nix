@@ -7,15 +7,10 @@ pkgs.mkShell {
   ];
 
   packages = with pkgs; [
-    tailwindcss typescript nodejs rustup bacon
+    tailwindcss typescript nodejs
   ];
   shellHook = ''
     export LD_LIBRARY_PATH=${pkgs.openssl}/lib:$LD_LIBRARY_PATH
     export LD_LIBRARY_PATH=${pkgs.pkg-config}/lib:$LD_LIBRARY_PATH
-
-    echo "front end:"
-    echo "npm run dev --"
-    echo "back end:"
-    echo "cargo run"
   '';
 }
