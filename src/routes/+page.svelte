@@ -1,1 +1,1 @@
-<h1>This is a test of auto deployments</h1>
+<h1>This is a test of git branches</h1>
